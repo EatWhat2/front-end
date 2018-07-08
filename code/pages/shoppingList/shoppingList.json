@@ -1,0 +1,10 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "shoppingList",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  }
+}
