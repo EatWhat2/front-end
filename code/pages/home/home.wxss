@@ -1,0 +1,29 @@
+/**home.wxss**/
+.user-btn {
+    height:100px;
+    width:150px;
+    padding-top:25px;
+    background-color:green;
+    color:white;
+}
+
+.rest-btn {
+    height:100px;
+    width:150px;
+    padding-top:25px;
+    background-color:#ff9900;
+    color:white;
+    margin-top: 40px;
+}
+
+.container {
+    margin-top: 40%;
+}
+
+.user-btn-hover {
+    opacity: 0.7;
+}
+
+.rest-btn-hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,57 @@
+ <!--order-->
+<view class="container">
+  <view class="header">
+    订单
+  </view>
+  <view class="column userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="row userinfo-detail">
+      <view class="column name-number">
+        <view>
+          {{userDetailInfo.name}}
+        </view>
+        <view>
+          {{userDetailInfo.phone}}
+        </view>
+      </view>
+      <view style="text-align: center;">
+        {{table_No ? table_No + " 号桌" : userDetailInfo.address}}
+      </view>
+    </view>
+  </view>
+
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      <view>支付方式</view>  
+      <view>{{array[index]}}</view>
+    </view>
+  </picker>
+
+  <view>
+    <view class = "top-bar" style = "display:flex;flex-direction:row;justify-content:space-around;">
+      <view class = "bar_name">菜名</view>
+      <view class = "bar_price">价格</view>
+      <view class = "bar_amount">数量</view>
+    </view>
+
+    <view class="shop-list row">
+      <block wx:for="{{shoppingCart}}">
+        <view class="shop-item column">
+          <view class = "food_name">{{item.food_name}}</view>
+          <view class = "price">{{item.price}}元</view>
+          <view class = "amount">{{item.amount}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <view class='bottom-bar'>
+    <view class="total-price">
+      总价 <view style='color: red; display: inline'>￥{{totalPrice}}</view>
+    </view>
+    <button class="submit-button" bindtap="submitOrder">
+      提交订单
+    </button>
+  </view>
+</view>  
+

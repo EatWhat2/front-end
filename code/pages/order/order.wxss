@@ -1,0 +1,129 @@
+ /*order.wxss*/
+.page {
+  height: 100%;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  background-color: #EEEEEE;
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  justify-content:space-between;
+}
+
+.userinfo {
+  margin: 0 5px 5px 5px;
+  border-top: 5px solid #EEEEEE;
+  justify-content: space-around;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+}
+
+.userinfo-detail {
+  overflow: hidden;
+  width: 200px;
+}
+
+.userinfo-name {
+  display: inline-block;
+}
+
+.userinfo-phone {
+  display: inline-block;
+}
+
+.picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:white;
+  margin:5px;
+}
+
+.column {
+  display: flex;
+  background-color:white;
+}
+
+.row {
+  display: block;
+  margin: 0;
+  background-color:white;
+}
+
+.name-number {
+  justify-content: space-around;
+}
+
+.shop-list {
+  margin:5px;
+  border-bottom:5px solid #EEEEEE;
+}
+
+.shop-item {
+  justify-content:space-around;
+  padding-bottom:10px;
+  border-bottom: 3rpx solid #F8F8F8;
+}
+
+.food_name{
+  width: 30%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.price {
+  font-size: 14px;
+  width: 20%;
+  text-align: center;
+}
+
+.amount {
+  font-size: 14px;
+  width:10%;
+  text-align: center;
+}
+
+.bar_name{
+  width: 30%;
+  text-align: center;
+}
+
+.submit-button {
+  margin-left:10px;
+  margin-right:0;
+  border-radius:0;
+  font-size:20px;
+  background-color:#ffe500;
+}
+
+.total-price {
+  font-size:18px;
+}
+
+.bottom-bar {
+  background-color:white;
+  position:fixed;
+  display:flex;
+  bottom:0;
+  width:100%;
+  align-content:right;
+  justify-content:flex-end;
+  border-top: 1px solid #D8D8D8;
+  font-size: 16px;
+}
+
+.header {
+    text-align:center;
+    padding-top:10px;
+    font-size:25px;
+    background-color:#ffc700;
+    color:white;
+    padding-bottom:10px;
+}

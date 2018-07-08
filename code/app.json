@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/userLogin/userLogin",
+    "pages/restLogin/restLogin",
+    "pages/restSystem/restSystem",
+    "pages/menu/menu",
+    "pages/order/order",
+    "pages/shoppingList/shoppingList",
+    "pages/logs/logs",
+    "pages/foodManage/foodManage",
+    "pages/alterFood/alterFood"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffc700",
+    "navigationBarTitleText": "食乜阿",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+        "list": [
+            {
+              "pagePath": "pages/menu/menu",
+              "text": "菜单",
+              "iconPath": "/img/icon/menu.png",
+              "selectedIconPath": "/img/icon/menu_on.png"
+            },
+            {
+              "pagePath" : "pages/shoppingList/shoppingList",
+              "text": "购物车",
+              "iconPath": "/img/icon/cart.png",
+              "selectedIconPath": "/img/icon/cart_on.png"
+            }
+        ],
+        "backgroundColor": "#ffffff",
+        "selectedColor":"#FFCA0D",
+        "position":"bottom"
+    },
+  "debug":"true"
+}

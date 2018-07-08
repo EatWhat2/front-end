@@ -1,0 +1,5 @@
+<!--home.wxml-->
+<view class="container">
+    <button class="user-btn" hover-class="user-btn-hover" bindtap="uesrLogin">我是顾客</button>
+    <button class="rest-btn" hover-class="rest-btn-hover" bindtap="restLogin">我是商家</button>
+</view>
